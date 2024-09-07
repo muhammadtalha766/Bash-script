@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Auto deployment"
-if [ ! -d "/home/talha/lab6/bash_deploy.sh/" ]; then
+if [ ! -d "/home/talha/lab6/" ]; then
     cd /home/talha/lab6/
     echo "Cloning the repository."
     git clone https://github.com/muhammadtalha766/test.git
