@@ -7,7 +7,7 @@ if [ ! -d "/home/talha/lab6/" ]; then
     cd lab6/
 else
     echo "Repository already cloned. Pulling the latest changes."
-    cd /home/maham/lab6/
+    cd /home/talha/lab6/
     git pull origin master
 fi
 echo "Moving file into default directory."
